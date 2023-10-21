@@ -18,7 +18,5 @@ function simular() {
             valorFinal += aporte;
         }
     }
-    console.log(medida)
-    console.log(valorFinal)
     document.getElementById('resultado').innerHTML = 'R$' + valorFinal.toFixed(2).replace('.',',')
 }
